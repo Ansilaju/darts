@@ -14,7 +14,7 @@ const HomePage = () => {
             <img src="/Aifront.webp" alt="AI Academy" loading="eager" />
           </div>
           <div className="hero-contents">
-            <h1 className="hero-titles">IBN AI ACADEMY</h1>
+            <h1 className="hero-titles">DARTS AI ACADEMY</h1>
             <p className="hero-subtitle">
               Empowering Future Tech Leaders Through AI Education
             </p>
@@ -29,7 +29,7 @@ const HomePage = () => {
         <section id="about" className="about">
           <div className="containercs">
             <div className="section-header">
-              <h2 className="section-title">About IBN AI Academy</h2>
+              <h2 className="section-title">About DARTS AI Academy</h2>
               <p className="section-subtitle">
                 Leading the future of technology education
               </p>
@@ -109,7 +109,7 @@ const HomePage = () => {
                   />
                   <h3>
                     AI powered Digital Marketing <br />
-                    <br /> Starting From - ₹999
+                    <br /> Course Fee 30,000
                   </h3>
                   <div className="course-meta">
                     <span className="duration">Basic [online]</span>
@@ -138,7 +138,7 @@ const HomePage = () => {
                   <img src="/merns.webp" alt="MERN Stack" loading="lazy" />
                   <h3>
                     MERN Stack Web Development <br />
-                    <br /> Starting From - ₹15k
+                    <br /> Course Fee 30,000
                   </h3>
                   <div className="course-meta">
                     <span className="duration">Front-End Developer</span>
@@ -179,7 +179,7 @@ const HomePage = () => {
                   />
                   <h3>
                     Cyber Security <br />
-                    <br /> Starting From - ₹22k
+                    <br /> Course Fee 30,000
                   </h3>
                   <div className="course-meta">
                     <span className="duration">Basic + Fundamental</span>
@@ -211,7 +211,7 @@ const HomePage = () => {
                   <img src="/vfx.webp" alt="VFX" loading="lazy" />
                   <h3>
                     Visual Effects (VFX) <br />
-                    <br /> Starting From ₹15,000
+                    <br /> Course Fee 30,000
                   </h3>
                   <div className="course-meta">
                     <span className="duration">1 month</span>
