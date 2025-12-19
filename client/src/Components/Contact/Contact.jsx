@@ -41,7 +41,7 @@ const Contact = () => {
       <div className="contex">
         <div className="portfolio-title">
           <h2 className="contact-heading">CONTACT US</h2>
-          <p className="subtitle">Start a conversation with IBN Solutions</p>
+          <p className="subtitle">Start a conversation with DARTS AI ACADEMY</p>
         </div>
 
         {/* Contact Section */}
@@ -51,16 +51,10 @@ const Contact = () => {
           <div className="contact-info">
             <h2 className="contact-title">CORPORATE OFFICE</h2>
             <p className="contact-text">
-              Palayam, Thiruvananthapuram, Kerala 695009
+              AMBALATHARA, Thiruvananthapuram, Kerala 695009
             </p>
             <p className="contact-text">+91 7030009000</p>
 
-            <h2 className="contact-title">INTERNATIONAL HEAD OFFICE</h2>
-            <p className="contact-text">
-              P.O. Box 341662, Shed No 369, Plot No 538, Umm Suqeim Street,{" "}
-              <br />
-              Al Quoz Industrial Area 4, Area 4, Dubai, U.A.E
-            </p>
             <p className="contact-texT">+97143250413</p>
 
             <h2 className="contact-title">Email</h2>
