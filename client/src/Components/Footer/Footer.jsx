@@ -27,9 +27,7 @@ const Footer = () => {
               <li>
                 <a href="/about">About</a>
               </li>
-              <li>
-                <a href="/portfolio">Portfolio</a>
-              </li>
+
               <li>
                 <a href="/contact">Contact</a>
               </li>
@@ -93,7 +91,7 @@ const Footer = () => {
 
         {/* Bottom Section */}
         <div className="footer-bottom">
-          <p>&copy; 2025 IBN AI Academy. All Rights Reserved.</p>
+          <p>&copy; 2025 DARTS AI Academy. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
