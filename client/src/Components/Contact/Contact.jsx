@@ -53,9 +53,9 @@ const Contact = () => {
             <p className="contact-text">
               AMBALATHARA, Thiruvananthapuram, Kerala 695009
             </p>
-            <p className="contact-text">+91 7030009000</p>
+            <p className="contact-text">+91 7012045854</p>
 
-            <p className="contact-texT">+97143250413</p>
+            <p className="contact-texT">+91 79061638147</p>
 
             <h2 className="contact-title">Email</h2>
             <p className="contact-text">
@@ -107,7 +107,7 @@ const Contact = () => {
         <div className="map-container">
           <div className="map-wrapper">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470.23768458377117!2d76.94551756882306!3d8.500652454792643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bbf5fb4cd94f%3A0xf50133ce6cf5d47d!2sINTERNATIONAL%20BUSINESS%20NETWORK%20SOLUTIONS!5e0!3m2!1sen!2sin!4v1756785121058!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1973.2655543211356!2d76.94825657849823!3d8.447618899240686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bb366c01b1c3%3A0xb6852604d8bd66e9!2sKovalam%20by%20pass%20road%20near%20poonthura%20puthen%20pally!5e0!3m2!1sen!2sin!4v1766399875382!5m2!1sen!2sin">
               width="600"
               height="450"
               style={{ border: "0" }}
