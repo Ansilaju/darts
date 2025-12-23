@@ -46,9 +46,9 @@ const Vfx = () => {
                 </div>
                 <br />
                 <div className="hero-buttons">
-                  <a href="beginner" className="ibn-btn btn--primary">
+                  {/* <a href="beginner" className="ibn-btn btn--primary">
                     ENROLL NOW
-                  </a>
+                  </a> */}
                 </div>
               </div>
 
@@ -74,9 +74,9 @@ const Vfx = () => {
                 </div>
                 <br />
                 <div className="hero-buttons">
-                  <a href="Intermediate" className="ibn-btn btn--primary">
+                  {/* <a href="Intermediate" className="ibn-btn btn--primary">
                     ENROLL NOW
-                  </a>
+                  </a> */}
                 </div>
               </div>
 
@@ -103,9 +103,9 @@ const Vfx = () => {
                 </div>
                 <br />
                 <div className="hero-buttons">
-                  <a href="Advancedvfx" className="ibn-btn btn--primary">
+                  {/* <a href="Advancedvfx" className="ibn-btn btn--primary">
                     ENROLL NOW
-                  </a>
+                  </a> */}
                 </div>
               </div>
 
@@ -128,9 +128,9 @@ const Vfx = () => {
                 </div>
                 <br />
                 <div className="hero-buttons">
-                  <a href="Professional" className="ibn-btn btn--primary">
+                  {/* <a href="Professional" className="ibn-btn btn--primary">
                     ENROLL NOW
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

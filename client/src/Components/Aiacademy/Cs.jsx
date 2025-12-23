@@ -44,9 +44,9 @@ const Cs = () => {
                   </ul>
                 </div>
                 <div className="hero-buttons">
-                  <a href="/Basic" className="ibn-btn btn--primary">
+                  {/* <a href="/Basic" className="ibn-btn btn--primary">
                     ENROLL NOW
-                  </a>
+                  </a> */}
                 </div>
               </div>
 
@@ -69,9 +69,9 @@ const Cs = () => {
                   </ul>
                 </div>
                 <div className="hero-buttons">
-                  <a href="Icsp" className="ibn-btn btn--primary">
+                  {/* <a href="Icsp" className="ibn-btn btn--primary">
                     ENROLL NOW
-                  </a>
+                  </a> */}
                 </div>
               </div>
 
@@ -95,9 +95,9 @@ const Cs = () => {
                   </ul>
                 </div>
                 <div className="hero-buttons">
-                  <a href="Zerotohero" className="ibn-btn btn--primary">
+                  {/* <a href="Zerotohero" className="ibn-btn btn--primary">
                     ENROLL NOW
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

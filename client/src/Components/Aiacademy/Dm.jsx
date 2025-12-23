@@ -45,9 +45,9 @@ const Dm = () => {
                 </div>
                 <br />
                 <div className="hero-buttons">
-                  <a href="Launchpad" className="ibn-btn btn--primary">
+                  {/* <a href="Launchpad" className="ibn-btn btn--primary">
                     ENROLL NOW
-                  </a>
+                  </a> */}
                 </div>
               </div>
 
@@ -74,9 +74,9 @@ const Dm = () => {
                 </div>
                 <br />
                 <div className="hero-buttons">
-                  <a href="Advancedmastery" className="ibn-btn btn--primary">
+                  {/* <a href="Advancedmastery" className="ibn-btn btn--primary">
                     ENROLL NOW
-                  </a>
+                  </a> */}
                 </div>
               </div>
 
@@ -101,9 +101,9 @@ const Dm = () => {
                 </div>
                 <br />
                 <div className="hero-buttons">
-                  <a href="Advancedmastery" className="ibn-btn btn--primary">
+                  {/* <a href="Advancedmastery" className="ibn-btn btn--primary">
                     ENROLL NOW
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

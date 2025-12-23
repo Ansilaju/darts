@@ -45,9 +45,9 @@ const Ms = () => {
                   </ul>
                 </div>
                 <div className="hero-buttons">
-                  <a href="Frontenddev" className="ibn-btn btn--primary">
+                  {/* <a href="Frontenddev" className="ibn-btn btn--primary">
                     ENROLL NOW
-                  </a>
+                  </a> */}
                 </div>
               </div>
 
@@ -67,9 +67,9 @@ const Ms = () => {
                   </ul>
                 </div>
                 <div className="hero-buttons">
-                  <a href="Backend" className="ibn-btn btn--primary">
+                  {/* <a href="Backend" className="ibn-btn btn--primary">
                     ENROLL NOW
-                  </a>
+                  </a> */}
                 </div>
               </div>
 
@@ -90,9 +90,9 @@ const Ms = () => {
                   </ul>
                 </div>
                 <div className="hero-buttons">
-                  <a href="Fullstack" className="ibn-btn btn--primary">
+                  {/* <a href="Fullstack" className="ibn-btn btn--primary">
                     ENROLL NOW
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
