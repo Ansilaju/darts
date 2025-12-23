@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <header className="navbar-container">
       <div className="navbar">
-        <img src="/logonavvvvv.webp" alt="IBN Solutions Logo" />
+        <img src="/DARTS.webp" alt="DARTS AI Logo" />
 
         <nav className={`nav-links ${isOpen ? "active" : ""}`}>
           <ul>

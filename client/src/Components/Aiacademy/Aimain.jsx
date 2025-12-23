@@ -14,7 +14,7 @@ const HomePage = () => {
             <img src="/Aifront.webp" alt="AI Academy" loading="eager" />
           </div>
           <div className="hero-contents">
-            <h1 className="hero-titles">DARTS AI ACADEMY</h1>
+            <h1 className="hero-titles">DARTS <span className="">AI</span> ACADEMY</h1>
             <p className="hero-subtitle">
               Empowering Future Tech Leaders Through AI Education
             </p>
