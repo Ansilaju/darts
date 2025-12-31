@@ -111,7 +111,9 @@ const HomePage = () => {
                   />
                   <h3>
                     AI powered Digital Marketing <br />
-                    <br /> Course Fee 30,000(NEW YEAR OFFER)
+                    <br /> Course Fee 50,000
+                    <br />
+                    NEW YEAR OFFER PRICE 30,000
                   </h3>
                   <div className="course-meta">
                     <span className="duration">Basic [online]</span>
@@ -140,7 +142,9 @@ const HomePage = () => {
                   <img src="/merns.webp" alt="MERN Stack" loading="lazy" />
                   <h3>
                     MERN Stack Web Development <br />
-                    <br /> Course Fee 30,000 (NEW YEAR OFFER)
+                    <br /> Course Fee 45,000
+                    <br />
+                    NEW YEAR OFFER PRICE 30,000
                   </h3>
                   <div className="course-meta">
                     <span className="duration">Front-End Developer</span>
@@ -181,7 +185,9 @@ const HomePage = () => {
                   />
                   <h3>
                     Cyber Security <br />
-                    <br /> Course Fee 100,000 (NEW YEAR OFFER)
+                    <br /> Course Fee 115,000
+                    <br />
+                    NEW YEAR OFFER PRICE 80,000
                   </h3>
                   <div className="course-meta">
                     <span className="duration">Basic + Fundamental</span>
@@ -213,7 +219,9 @@ const HomePage = () => {
                   <img src="/vfx.webp" alt="VFX" loading="lazy" />
                   <h3>
                     Visual Effects (VFX) <br />
-                    <br /> Course Fee 30,000 (NEW YEAR OFFER)
+                    <br /> Course Fee 60,000
+                    <br />
+                    NEW YEAR OFFER PRICE 30,000
                   </h3>
                   <div className="course-meta">
                     <span className="duration">1 month</span>
