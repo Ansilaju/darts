@@ -12,13 +12,13 @@ const Footer = () => {
           <div className="footer-section brand">
             {/* Uncomment if you want logo */}
             {/* <img src="/logo.png" alt="IBN AI Academy" className="footer-logo" /> */}
-            <p className="footer-text">
+            {/* <p className="footer-text">
               Empowering Future Tech Leaders Through AI Education
-            </p>
+            </p> */}
           </div>
 
           {/* Quick Links */}
-          <div className="footer-section">
+          {/* <div className="footer-section">
             <h4 className="footer-heading">Quick Links</h4>
             <ul className="footer-links">
               <li>
@@ -32,10 +32,10 @@ const Footer = () => {
                 <a href="/contact">Contact</a>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Courses */}
-          <div className="footer-section">
+          {/* <div className="footer-section">
             <h4 className="footer-heading">Courses</h4>
             <ul className="footer-links">
               <li>
@@ -51,10 +51,10 @@ const Footer = () => {
                 <a href="/vfx">VFX</a>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Socials */}
-          <div className="footer-section">
+          {/* <div className="footer-section">
             <h4 className="footer-heading">Connect</h4>
             <div className="social-links">
               <a
@@ -86,7 +86,7 @@ const Footer = () => {
                 <FaLinkedin />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Bottom Section */}
