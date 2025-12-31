@@ -14,7 +14,9 @@ const HomePage = () => {
             <img src="/Aifront.webp" alt="AI Academy" loading="eager" />
           </div>
           <div className="hero-contents">
-            <h1 className="hero-titles">DARTS <span className="">AI</span> ACADEMY</h1>
+            <h1 className="hero-titles">
+              DARTS <span className="">AI</span> ACADEMY
+            </h1>
             <p className="hero-subtitle">
               Empowering Future Tech Leaders Through AI Education
             </p>
@@ -109,7 +111,7 @@ const HomePage = () => {
                   />
                   <h3>
                     AI powered Digital Marketing <br />
-                    <br /> Course Fee 30,000
+                    <br /> Course Fee 30,000(NEW YEAR OFFER)
                   </h3>
                   <div className="course-meta">
                     <span className="duration">Basic [online]</span>
@@ -138,7 +140,7 @@ const HomePage = () => {
                   <img src="/merns.webp" alt="MERN Stack" loading="lazy" />
                   <h3>
                     MERN Stack Web Development <br />
-                    <br /> Course Fee 30,000
+                    <br /> Course Fee 30,000 (NEW YEAR OFFER)
                   </h3>
                   <div className="course-meta">
                     <span className="duration">Front-End Developer</span>
@@ -179,7 +181,7 @@ const HomePage = () => {
                   />
                   <h3>
                     Cyber Security <br />
-                    <br /> Course Fee 30,000
+                    <br /> Course Fee 100,000 (NEW YEAR OFFER)
                   </h3>
                   <div className="course-meta">
                     <span className="duration">Basic + Fundamental</span>
@@ -211,7 +213,7 @@ const HomePage = () => {
                   <img src="/vfx.webp" alt="VFX" loading="lazy" />
                   <h3>
                     Visual Effects (VFX) <br />
-                    <br /> Course Fee 30,000
+                    <br /> Course Fee 30,000 (NEW YEAR OFFER)
                   </h3>
                   <div className="course-meta">
                     <span className="duration">1 month</span>

@@ -49,22 +49,20 @@ const Contact = () => {
           {/* Contact Info */}
           {/* Contact Info */}
           <div className="contact-info">
-            <h2 className="contact-title">CORPORATE OFFICE</h2>
+            <h2 className="contact-title"> OFFICE</h2>
             <p className="contact-text">
               AMBALATHARA, Thiruvananthapuram, Kerala 695009
             </p>
             <p className="contact-text">+91 7012045854</p>
 
-            <p className="contact-texT">+91 79061638147</p>
+            <p className="contact-texT">+91 9061638147</p>
 
-            <h2 className="contact-title">Email</h2>
-            <p className="contact-text">
-              <FaEnvelope /> contact@Ibnsu.com
-            </p>
+            {/* <h2 className="contact-title">Email</h2>
+            <p className="contact-text">contact@Ibnsu.com</p> */}
           </div>
 
           {/* Contact Form */}
-          <div className="contact-form">
+          {/* <div className="contact-form">
             <h2 className="contact-title">Let's Talk....</h2>
             <form onSubmit={handleSubmit}>
               <div className="row">
@@ -98,9 +96,8 @@ const Contact = () => {
               </button>
             </form>
 
-            {/* Status Message */}
             {statusMessage && <p className="status-msg">{statusMessage}</p>}
-          </div>
+          </div> */}
         </section>
 
         {/* Google Maps */}
@@ -115,7 +112,9 @@ const Contact = () => {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               title="Google Maps Location"
-          > </iframe>
+            >
+              {" "}
+            </iframe>
             <a
               href="https://www.google.com/maps?q=INTERNATIONAL+BUSINESS+NETWORK+SOLUTIONS"
               target="_blank"

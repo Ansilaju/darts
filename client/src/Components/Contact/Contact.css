@@ -16,11 +16,12 @@
 /* Contact Section */
 .contact-section {
   display: flex;
-  max-width: 1300px;
+  max-width: 900px;
   margin: 50px auto;
   padding: 20px;
   gap: 40px;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
