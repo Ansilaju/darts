@@ -3,7 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import "./Whatsapp.css";
 
 const Whatsapp = () => {
-  const phoneNumber = "7030009000";
+  const phoneNumber = "9061638147";
   const message = encodeURIComponent(
     "Hello! I'm interested in your services. Please tell me more."
   );
