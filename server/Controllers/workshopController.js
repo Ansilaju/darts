@@ -16,7 +16,7 @@ export const bookWorkshop = async (req, res) => {
 
     // Send email using Resend
     await resend.emails.send({
-      from: process.env.EMAIL_USER, // your verified sender email in Resend
+      from: process.env.RESEND_FROM_EMAIL, // your verified sender email in Resend
       to: process.env.RECEIVER_EMAIL,
       subject: "🎓 New Workshop Booking",
       html: `

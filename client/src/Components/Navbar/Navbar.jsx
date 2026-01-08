@@ -27,22 +27,22 @@ const Navbar = () => {
                 About us
               </Link>
             </li>
-            {/* <li>
+            <li>
               <Link to="/servicemain" onClick={closeMenu}>
                 Services
               </Link>
-            </li> */}
-            {/* <li>
+            </li>
+            <li>
               <Link to="/Career" onClick={closeMenu}>
                 Careers
               </Link>
-            </li> */}
+            </li>
 
-            {/* <li>
+            <li>
               <Link to="/portfolio" onClick={closeMenu}>
                 Portfolio
               </Link>
-            </li> */}
+            </li>
             <li>
               <Link to="/contact" onClick={closeMenu}>
                 Contact

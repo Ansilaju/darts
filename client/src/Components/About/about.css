@@ -40,6 +40,21 @@ h5 {
   padding-top: 60px;
   line-height: 1.8;
 }
+.aboutbod h1{
+  text-align: center;
+}
+
+.aboutbod {
+  max-width: 1200px;      /* keeps text readable */
+  margin: 0 auto;       /* centers container */
+  text-align: center;   /* centers text */
+}
+
+.about p {
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
 .aboutbod p {
   color: gray;
   text-align: center;
@@ -230,7 +245,7 @@ button:active {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 20px;
   border: 1px solid rgba(4, 43, 142, 0.2);
-  overflow: hidden;
+  overflow: visible;
   transition: all 0.3s ease;
 }
 
@@ -270,7 +285,7 @@ button:active {
 /* Answer */
 .faq-answer {
   max-height: 0;
-  overflow: hidden;
+  overflow: visible;
   transition: max-height 0.3s ease, padding 0.3s ease;
   padding: 0 25px;
 }

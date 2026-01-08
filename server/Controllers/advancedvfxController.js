@@ -18,7 +18,7 @@ export const registerAdvancedvfx = async (req, res) => {
     const resend = new Resend(process.env.RESEND_API_KEY);
     // Send email via Resend
     await resend.emails.send({
-      from: process.env.EMAIL_USER,
+      from: process.env.RESEND_FROM_EMAIL,
       to: process.env.RECEIVER_EMAIL,
       subject: "🎓 New Student Registered",
       html: `

@@ -29,7 +29,7 @@ export const registerStudent = async (req, res) => {
 
     // Send email with Resend
     await resend.emails.send({
-      from: process.env.EMAIL_USER, // Must be verified in Resend
+      from: process.env.RESEND_FROM_EMAIL, // Must be verified in Resend
       to: process.env.RECEIVER_EMAIL,
       subject: "🎓 New Student Admission",
       html: `

@@ -55,6 +55,7 @@ const Home = () => {
         {" "}
         <picture>
           {" "}
+          
           <source srcSet="/frontttttttttt.webp" type="image/webp" />{" "}
           <img
             src="/frontttttttttt.jpg"
@@ -70,10 +71,10 @@ const Home = () => {
       </div>{" "}
       <div className="hero-content">
         {" "}
-        <div className="tag">Welcome To IBN Solutions</div>{" "}
+        <div className="tag">Welcome To DARTS</div>{" "}
         <h1>
           {" "}
-          INTERNATIONAL <br /> BUSINESS NETWORK SOLUTIONS{" "}
+          DANROSH TECH <br />  SOLUTIONS{" "}
         </h1>
         <p>
           We’re your all-in-one team for branding, social media management,
@@ -86,7 +87,7 @@ const Home = () => {
       <div className="mensil" data-aos="fade-right">
         <section className="aiacademy-section">
           <div className="aiacademy-content">
-            <h2 className="aiacademy-title">IBN AI ACADEMY</h2>
+            <h2 className="aiacademy-title">DARTS AI ACADEMY</h2>
             <p className="aiacademy-description">
               Unlock the future with AI. Our AI Academy offers expert-led
               courses, hands-on workshops, and real-world projects designed to
@@ -117,7 +118,14 @@ const Home = () => {
           </div>
         </section>
       </div>
+
+
+
+
       <section className="servicepage-section" data-aos="fade-right">
+        <div className="servimg">
+          <img src="/darts img.webp" alt="" />
+        </div>
         <div className="servicepage-container">
           <div className="servicepage-header">
             <div>
@@ -127,7 +135,7 @@ const Home = () => {
               </h2>
             </div>
           </div>
-
+        
           <div className="servicepage-grid">
             <Link to="/Businessnetworking" className="servicepage-card-link">
               <div className="servicepage-card">
@@ -170,7 +178,9 @@ const Home = () => {
                 </p>
               </div>
             </Link>
-            <Link to="/BE" className="servicepage-card-link">
+            
+             
+            {/* <Link to="/BE" className="servicepage-card-link">
               <div className="servicepage-card">
                 <div className="servicepage-icon purple">
                   <FaHeart />
@@ -182,7 +192,7 @@ const Home = () => {
                   designed for growth.
                 </p>
               </div>
-            </Link>
+            </Link> */}
           </div>
 
           <div className="hero-buttons">
@@ -192,36 +202,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <div className="space" data-aos="fade-right">
-        <section className="cta-wrap">
-          <div className="cta-card">
-            <div className="cta-content">
-              <h2 className="title">
-                <span className="grad">WHAT IS IBN ?</span>
-              </h2>
-
-              <p className="sub">
-                IBN (International Business Network) Solutions is a
-                purpose-driven community that unites enterprises,
-                <br />
-                professionals, and investors under a shared vision of ethical
-                and empowering business growth. Built on
-                <br />
-                trust, values, and innovation, IBN provides smart tools,
-                training, and networking to help individuals and
-                <br />
-                businesses thrive in a fast-changing digital economy.
-              </p>
-            </div>
-            <br />
-            <div>
-              <div className="hero-buttons">
-                <a href="about">Learn More</a>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
+   
       <section className="portfolios" data-aos="fade-right">
         <div className="container">
           <h2 className="section__titlee">OUR PORTFOLIO</h2>
@@ -243,7 +224,7 @@ const Home = () => {
                 alt: "Website UI/UX mockup",
               },
               {
-                src: "/poster14.webp",
+                src: "/poster16.jpg",
                 alt: "Upcoming project preview",
               },
             ].map((item, index) => (

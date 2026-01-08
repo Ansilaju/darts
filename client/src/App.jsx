@@ -68,19 +68,20 @@ function App() {
       <Navbar />
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<Aimain />} />
-        {/* <Route path="/BE" element={<BE />} /> */}
+        <Route path="/" element={<Home />} />
+        <Route path="/aiacademy" element={<Aimain />} />
+        <Route path="/BE" element={<BE />} />
         <Route path="/Aimain" element={<Aimain />} />
         <Route path="/Dm" element={<Dm />} />
         <Route path="/Ms" element={<Ms />} />
         <Route path="/Cs" element={<Cs />} />
         <Route path="/Vfx" element={<Vfx />} />
-        {/* <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/register" element={<UserForm />} /> */}
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/register" element={<UserForm />} />
         <Route path="/About" element={<About />} />
-        {/* <Route path="/student" element={<StudentForm />} /> */}
+        <Route path="/student" element={<StudentForm />} />
         <Route path="/contact" element={<Contact />} />
-        {/* <Route path="/digitalMarketing" element={<DM />} />
+        <Route path="/digitalMarketing" element={<DM />} />
         <Route path="/Basic" element={<Basic />} />
         <Route path="/Professional" element={<Professional />} />
         <Route path="/Advancedmastery" element={<Advancedmastery />} />
@@ -100,7 +101,7 @@ function App() {
         <Route path="/Quizregistration" element={<Quizregistration />} />
         <Route path="/career" element={<CareerPage />} />
         <Route path="/job/:id" element={<JobDetail />} />
-        <Route path="/WomenEmpowerment" element={<WomenEmpowerment />} /> */}
+        <Route path="/WomenEmpowerment" element={<WomenEmpowerment />} />
       </Routes>
       <Whatsapp />
       <Footer />

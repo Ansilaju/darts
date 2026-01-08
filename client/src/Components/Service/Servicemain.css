@@ -74,16 +74,20 @@ p {
 /* Services Grid: 2 x 2 on desktop */
 .service-page-services {
   display: grid;
-  grid-template-columns: repeat(2, minmax(360px, 1fr)); /* exactly 2 columns */
-  gap: 32px;
+  grid-template-columns: repeat(2, minmax(360px, 1fr));
+  gap: 20px;
   background-color: black;
   padding: 48px 8%;
   justify-content: center; /* keep grid centered if viewport is wide */
 }
 
+.service-page-services > :first-child{
+ grid-column: 1 / -1;
+}
+
 /* Larger cards */
 .service-page-card {
-  background: #1a1a1a;
+
   border-radius: 14px;
   overflow: hidden;
   text-align: center;
@@ -94,13 +98,13 @@ p {
 
 .service-page-card:hover {
   transform: translateY(-12px);
-  background: #222;
+ 
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
 }
 
 .service-page-card img {
-  width: 500px;
-  height: 360px; /* taller image for larger card */
+  width: 800px;
+  height: 460px; /* taller image for larger card */
   object-fit: cover;
   border-radius: 10px;
   max-width: 100%; /* ensure responsive fit */

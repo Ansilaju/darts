@@ -24,7 +24,7 @@ export const registerFullstack = async (req, res) => {
     const resend = new Resend(process.env.RESEND_API_KEY);
     // Send email using Resend
     await resend.emails.send({
-      from: process.env.EMAIL_USER, // Verified sender in Resend
+      from: process.env.RESEND_FROM_EMAIL, // Verified sender in Resend
       to: process.env.RECEIVER_EMAIL,
       subject: "🎓 New Student Registered",
       html: `

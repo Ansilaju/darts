@@ -18,7 +18,7 @@ export const contactController = async (req, res) => {
 
     // Send email using Resend
     await resend.emails.send({
-      from: process.env.EMAIL_USER, // Verified sender in Resend
+      from: process.env.RESEND_FROM_EMAIL, // Verified sender in Resend
       to: process.env.RECEIVER_EMAIL,
       subject: "🎓 User Contacted",
       html: `
