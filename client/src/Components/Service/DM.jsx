@@ -19,7 +19,7 @@ const DM = () => {
               </p>
               <p className="ibn-hero-desc">
                 Get access to all professional digital marketing strategies
-                through IBNS. From branding and advertising to business
+                through DARTS. From branding and advertising to business
                 consultancy, we provide everything your business needs to grow
                 online.
               </p>
@@ -38,10 +38,10 @@ const DM = () => {
             <div className="ibn-container">
               <header className="ibn-header">
                 <h2 id="ibn-services-title" className="ibn-eyebrow">
-                  IBNS DIGITAL SERVICES
+                  DARTS DIGITAL SERVICES
                 </h2>
                 <h3 className="ibn-title">
-                  Complete growth solutions for IBNS members
+                  Complete growth solutions for DARTS members
                 </h3>
                 <p className="ibn-subtitle">
                   Clean, modern, and performance-ready. Inspired by Apple’s
@@ -211,7 +211,7 @@ const DM = () => {
           <div className="dmservices">
             <h2 className="section__titlee">Our Digital Services</h2>
             <p className="section__subtitlee">
-              Complete digital marketing solutions for all IBNS members
+              Complete digital marketing solutions for all DARTS members
             </p>
             <section className="mern-services">
               <div className="services-grid">

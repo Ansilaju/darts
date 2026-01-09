@@ -14,7 +14,7 @@ const WomenEmpowerment = () => {
               (MoUs in discussion)
             </span>
           </h4>
-          <h1>AI in Women's Hands IBN She-Tech 1000</h1>
+          <h1>AI in Women's Hands DARTS She-Tech 1000</h1>
           <p>
             Test Your Knowledge in AI with quick and simple MCQ Question.
             <br />
@@ -74,7 +74,7 @@ const WomenEmpowerment = () => {
             <div className="cardm">
               <img src="/women1.webp" alt="Startup Support" />
               <div className="overlay">
-                <h3>IBN Job Hub & Startup Support</h3>
+                <h3>DARTS Job Hub & Startup Support</h3>
                 <p>
                   Direct placement assistance and entrepreneurship guidance.
                 </p>
@@ -130,7 +130,7 @@ const WomenEmpowerment = () => {
             <div className="card15">
               <div className="icon15">6</div>
               <h3>Certificate</h3>
-              <p>IBN AI Academy (Targeted Govt/NSDC partnership).</p>
+              <p>DARTS AI Academy (Targeted Govt/NSDC partnership).</p>
             </div>
           </div>
         </div>

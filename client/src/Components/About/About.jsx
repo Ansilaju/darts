@@ -66,28 +66,35 @@ const About = () => {
 
       <div className="aboutbod" data-aos="fade-right">
         <h1>LEARN. BUILD. TRANSFORM.</h1>
-        <p>
-          DARTS AI Academy is a professional learning platform focused on
-          next-gen technologies and creative skills. We train students,
-          professionals, and entrepreneurs through hands-on courses, expert
-          mentorship, and real-world projects.
-        
-          Our programs in AI Digital Marketing, MERN Stack & Web Development,
-          VFX, and Cyber Security are designed to help learners build strong
-          careers in today’s fast-changing digital world.
-        
-          We believe learning should be practical, affordable, and career
-          focused. With live tools, AI-powered workflows, and industry-aligned
-          curriculum, DARTS helps you stay ahead, confident, and job-ready.
-        </p>
-        <p>At DartsAI Academy, we are redefining how darts is learned, practiced, and mastered by blending cutting-edge Artificial Intelligence with performance-driven coaching. Our mission is to empower players of all skill levels — from beginners taking their first steps to seasoned competitors — with next-generation AI tools, insights, and training methods that accelerate improvement and deepen your understanding of the game.
+         <p>
+    DARTS AI Academy is a professional learning platform focused on next-gen
+    technologies and creative skills. We train students, professionals, and
+    entrepreneurs through hands-on courses, expert mentorship, and real-world
+    projects.
 
-Using advanced AI analytics and computer vision technology, our platform analyzes your throws, evaluates accuracy, stance, and scoring patterns, and delivers data-backed feedback so you can train smarter, not harder. Whether you’re aiming to refine your technique, boost consistency, or compete at higher levels, DartsAI Academy equips you with practical insights and personalized guidance.
+    Our programs in AI Digital Marketing, MERN Stack & Web Development,
+    VFX, and Cyber Security are designed to help learners build strong
+    careers in today’s fast-changing digital world.
 
-We believe that mastering darts shouldn’t be limited by access to coaching or experience. By harnessing intelligent systems that observe your real-world play and translate it into clear, actionable advice, we make world-class training accessible to everyone — anytime, anywhere.
+    We believe learning should be practical, affordable, and career
+    focused. With live tools, AI-powered workflows, and industry-aligned
+    curriculum, DARTS helps you stay ahead, confident, and job-ready.
+  </p>
 
-Join a growing community of darts enthusiasts who are improving their game with the help of AI-driven analysis, training programs, and performance tools. Step up your game — where innovation meets precision.</p>
-      </div>
+  <p>
+    At DartsAI Academy, we are redefining how darts is learned, practiced,
+    and mastered by blending cutting-edge Artificial Intelligence with
+    performance-driven coaching. Our mission is to empower players of all
+    skill levels — from beginners to seasoned competitors — with
+    next-generation AI tools and insights.
+
+    Using advanced AI analytics and computer vision technology, our platform
+    analyzes your throws, evaluates accuracy, stance, and scoring patterns,
+    and delivers data-backed feedback so you can train smarter, not harder.
+
+    Join a growing community of darts enthusiasts improving their game with
+    AI-driven analysis, training programs, and performance tools.
+  </p> </div>
 
       <div className="aboutgro" data-aos="fade-right">
         <div className="gaa">
