@@ -22,7 +22,13 @@ dotenv.config();
 const app = express();
 app.set("trust proxy", 1);
 
-app.use(cors());
+app.use(
+  cors({
+    origin: ["http://localhost:5173", "https://www.dartsai.in"],
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+  })
+);
 app.use(helmet());
 app.use(express.json());
 app.use(hpp());
