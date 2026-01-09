@@ -23,7 +23,7 @@ const DM = () => {
                 consultancy, we provide everything your business needs to grow
                 online.
               </p>
-              <a href="https://wa.me/7030009000" className="ibn-btn">
+              <a href="https://wa.me/9188405527" className="ibn-btn">
                 CONTACT NOW
               </a>
             </div>
