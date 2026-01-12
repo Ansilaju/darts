@@ -11,7 +11,7 @@ const DM = () => {
             <div className="ibn-hero-overlay"></div>
             <div className="ibn-hero-content">
               <h1 className="ibn-hero-title">
-                Digital Services for IBNS Members
+                Digital Services for DARTS Members
               </h1>
               <p className="ibn-hero-subtitle">
                 Comprehensive Digital Marketing Solutions – Professional,

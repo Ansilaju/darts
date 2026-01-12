@@ -89,7 +89,7 @@ const WomenEmpowerment = () => {
         <div className="container16">
           <h2 className="section-title15">Our Program Snapshot</h2>
           <p className="section-subtitle15">
-            Complete Program Snapshots for every IBNS members
+            Complete Program Snapshots for every DARTS members
           </p>
 
           <div className="cards1">
