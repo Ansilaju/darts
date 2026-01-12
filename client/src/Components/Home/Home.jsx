@@ -106,7 +106,7 @@ const Home = () => {
             <h2 className="aiacademy-title">WOMEN EMPOWERMENT</h2>
             <p className="aiacademy-description">
               Empowering women is the foundation of a stronger, more inclusive
-              world. At IBN, we are committed to supporting women through
+              world. At DARTS, we are committed to supporting women through
               education, leadership opportunities, skill development, and
               community-building initiatives. Our mission is to inspire
               confidence, break barriers, and create a platform where women can
