@@ -35,7 +35,7 @@ const Businessnetworking = () => {
               <div className="ibn-service">
                 <img src="/bn13.webp" alt="" loading="lazy" />
                 <div className="servhea">
-                  <h3>01. One Dedicated Page on IBN Solution's Website</h3>
+                  <h3>01. One Dedicated Page on DARTS Website</h3>
                   <p>(Value ₹4500)</p>
                 </div>
               </div>
@@ -83,7 +83,7 @@ const Businessnetworking = () => {
                 <img src="/bn7.webp" alt="" />
                 <div className="servhea">
                   <h3>
-                    08. 50% Discount - IBN Personal and professional growth
+                    08. 50% Discount - DARTS Personal and professional growth
                     programs
                   </h3>
                 </div>
@@ -91,7 +91,7 @@ const Businessnetworking = () => {
               <div className="ibn-service">
                 <img src="/bn4.webp" alt="" />
                 <div className="servhea">
-                  <h3>09. 30% Discount - IBN Social Media Extra Support</h3>
+                  <h3>09. 30% Discount - DARTS Social Media Extra Support</h3>
                   <p>Exclusive promotions for your events.</p>
                 </div>
               </div>

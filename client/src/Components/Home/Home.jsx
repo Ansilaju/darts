@@ -148,7 +148,7 @@ const Home = () => {
                 <p className="servicepage-text">
                   Connect with enterprises, professionals, and investors
                   seamlessly. Build strong partnerships, expand your reach, and
-                  grow your business efficiently with IBN Solutions.
+                  grow your business efficiently with DARTS.
                 </p>
               </div>
             </Link>
