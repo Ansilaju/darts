@@ -30,9 +30,7 @@ const UserForm = () => {
     e.preventDefault();
     setStatusMessage("Sending...");
     try {
-      const payload = { ...formData };
-
-      await axios.post(`${BASE_URL}/api/users/register`, payload);
+      await axios.post(`${BASE_URL}/api/users/register`, formData);
       setStatusMessage("✅ User registered successfully!");
 
       setFormData({
@@ -76,7 +74,7 @@ const UserForm = () => {
                 <input
                   type="email"
                   name="Email"
-                  placeholder="E-mail(Optional)"
+                  placeholder="E-mail"
                   value={formData.Email}
                   onChange={handleChange}
                 />

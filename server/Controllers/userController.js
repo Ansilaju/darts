@@ -9,7 +9,7 @@ export const registerUser = async (req, res) => {
 
   try {
     // Validate required fields
-    if (!Name || !Place || !PhoneNumber) {
+    if (!Name || !Email || !Place || !PhoneNumber) {
       return res.status(400).json({ message: "Required fields missing" });
     }
 
