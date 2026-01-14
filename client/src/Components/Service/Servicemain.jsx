@@ -11,7 +11,7 @@ const Servicemain = () => {
         </section>
         {/* Services Section */}
         <section className="service-page-services">
-           <div className="service-page-card">
+          <div className="service-page-card">
             <img
               src="/ai2 (1).webp"
               alt="Video Ads Production"
@@ -19,7 +19,7 @@ const Servicemain = () => {
             />
             <h3>AI Academy</h3>
             <div className="service-page-btn-box">
-              <Link to="/Aimain" className="service-page-btn">
+              <Link to="/Academy" className="service-page-btn">
                 Explore now
               </Link>
             </div>
@@ -35,7 +35,6 @@ const Servicemain = () => {
             </div>
           </div>
 
-         
           <div className="service-page-card">
             <img src="/dm2.webp" alt="Social Media Marketing" loading="lazy" />
             <h3>Digital Marketing</h3>
@@ -45,8 +44,6 @@ const Servicemain = () => {
               </a>
             </div>
           </div>
-
-       
         </section>
            
       </div>

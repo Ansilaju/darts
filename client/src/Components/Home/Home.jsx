@@ -55,7 +55,6 @@ const Home = () => {
         {" "}
         <picture>
           {" "}
-          
           <source srcSet="/frontttttttttt.webp" type="image/webp" />{" "}
           <img
             src="/frontttttttttt.jpg"
@@ -74,7 +73,7 @@ const Home = () => {
         <div className="tag">Welcome To DARTS</div>{" "}
         <h1>
           {" "}
-          DANROSH TECH <br />  SOLUTIONS{" "}
+          DANROSH TECH <br /> SOLUTIONS{" "}
         </h1>
         <p>
           We’re your all-in-one team for branding, social media management,
@@ -97,7 +96,7 @@ const Home = () => {
               technology. Learn, build, and innovate with us.
             </p>
             <div className="hero-buttons">
-              <Link to="/Aimain">Explore Ai Academy</Link>
+              <Link to="/Academy">Explore Ai Academy</Link>
             </div>
           </div>
         </section>
@@ -118,10 +117,6 @@ const Home = () => {
           </div>
         </section>
       </div>
-
-
-
-
       <section className="servicepage-section" data-aos="fade-right">
         <div className="servimg">
           <img src="/darts img.webp" alt="" />
@@ -135,7 +130,7 @@ const Home = () => {
               </h2>
             </div>
           </div>
-        
+
           <div className="servicepage-grid">
             <Link to="/Businessnetworking" className="servicepage-card-link">
               <div className="servicepage-card">
@@ -165,7 +160,7 @@ const Home = () => {
                 </p>
               </div>
             </Link>
-            <Link to="/Aimain" className="servicepage-card-link">
+            <Link to="/Academy" className="servicepage-card-link">
               <div className="servicepage-card">
                 <div className="servicepage-icon purple">
                   <FaBrain />
@@ -178,8 +173,7 @@ const Home = () => {
                 </p>
               </div>
             </Link>
-            
-             
+
             {/* <Link to="/BE" className="servicepage-card-link">
               <div className="servicepage-card">
                 <div className="servicepage-icon purple">
@@ -202,7 +196,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-   
       <section className="portfolios" data-aos="fade-right">
         <div className="container">
           <h2 className="section__titlee">OUR PORTFOLIO</h2>

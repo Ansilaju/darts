@@ -1,114 +1,59 @@
-/* ===== Footer Base ===== */
 .footer {
-  background: #000;
-  border-top: 1px solid rgba(50, 212, 255, 0.2);
-  padding: 3rem 1rem 1.5rem;
-  font-family: "Poppins", sans-serif;
-  color: #fff;
+  background: #0f172a;
+  color: #cbd5f5;
+  padding: 50px 0 20px;
 }
 
 .container {
   width: 90%;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: auto;
 }
 
-/* ===== Top Content ===== */
 .footer-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 2rem;
-  margin-bottom: 2rem;
-}
-
-.footer-section {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-logo {
-  max-width: 120px;
-  margin-bottom: 1rem;
-}
-
-.footer-text {
-  color: rgba(255, 255, 255, 0.7);
-  line-height: 1.6;
-  font-size: 0.95rem;
+  gap: 30px;
 }
 
 .footer-heading {
-  font-size: 1.2rem;
-  color: white;
-  margin-bottom: 1rem;
-  font-weight: 600;
+  color: #fff;
+  margin-bottom: 12px;
 }
 
-/* ===== Links ===== */
 .footer-links {
   list-style: none;
   padding: 0;
-  margin: 0;
 }
 
 .footer-links li {
-  margin-bottom: 0.6rem;
+  margin-bottom: 8px;
 }
 
 .footer-links a {
-  color: rgba(255, 255, 255, 0.75);
+  color: #cbd5f5;
   text-decoration: none;
-  font-size: 0.95rem;
-  transition: color 0.3s ease;
 }
 
 .footer-links a:hover {
-  color: #32d4ff;
+  color: #38bdf8;
 }
 
-/* ===== Social Icons ===== */
-.social-links {
-  display: flex;
-  gap: 15px;
-  margin-top: 0.5rem;
-}
-
-.social-links a {
+.footer-logo-text {
   color: #fff;
-  font-size: 1.4rem;
-  transition: all 0.3s ease;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
-.social-links a:hover {
-  color: #32d4ff;
-  transform: translateY(-3px);
+.footer-text {
+  font-size: 14px;
+  line-height: 1.6;
 }
 
-/* ===== Bottom Section ===== */
 .footer-bottom {
+  border-top: 1px solid #334155;
+  margin-top: 30px;
+  padding-top: 15px;
   text-align: center;
-  padding-top: 1.5rem;
-  border-top: 1px solid rgba(50, 212, 255, 0.1);
-}
-
-.footer-bottom p {
-  font-size: 0.9rem;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-/* ===== Responsive ===== */
-@media (max-width: 768px) {
-  .footer-content {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 500px) {
-  .footer-content {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-  .social-links {
-    justify-content: center;
-  }
+  font-size: 14px;
 }

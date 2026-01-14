@@ -30,12 +30,12 @@ const StudentForm = lazy(() =>
   import("./Components/studentRegistration/StudentForm.jsx")
 );
 const Portfolio = lazy(() => import("./Components/Portfolio/Portfolio.jsx"));
-const Aimain = lazy(() => import("./Components/Aiacademy/Aimain.jsx")); 
+const Aimain = lazy(() => import("./Components/Aiacademy/Aimain.jsx"));
 const Dm = lazy(() => import("./Components/Aiacademy/Dm.jsx"));
 const Ms = lazy(() => import("./Components/Aiacademy/Ms.jsx"));
 const Cs = lazy(() => import("./Components/Aiacademy/Cs.jsx"));
 const Vfx = lazy(() => import("./Components/Aiacademy/Vfx.jsx"));
-const Contact = lazy(() => import("./Components/Contact/Contact.jsx")); 
+const Contact = lazy(() => import("./Components/Contact/Contact.jsx"));
 const DM = lazy(() => import("./Components/Service/DM.jsx"));
 const Professional = lazy(() =>
   import("./Components/Courses/Professional.jsx")
@@ -71,7 +71,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/aiacademy" element={<Aimain />} />
         <Route path="/BE" element={<BE />} />
-        <Route path="/Aimain" element={<Aimain />} />
+        <Route path="/Academy" element={<Aimain />} />
         <Route path="/Dm" element={<Dm />} />
         <Route path="/Ms" element={<Ms />} />
         <Route path="/Cs" element={<Cs />} />
