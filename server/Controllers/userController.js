@@ -5,11 +5,11 @@ import { Resend } from "resend";
 
 // Register user + send email
 export const registerUser = async (req, res) => {
-  const { Name, Email, BusinessName, Place, PhoneNumber } = req.body;
+  const { Name, Email, Place, PhoneNumber } = req.body;
 
   try {
     // Validate required fields
-    if (!Name || !BusinessName || !Place || !PhoneNumber) {
+    if (!Name || !Place || !PhoneNumber) {
       return res.status(400).json({ message: "Required fields missing" });
     }
 
@@ -17,7 +17,6 @@ export const registerUser = async (req, res) => {
     const newUser = new User({
       Name,
       Email,
-      BusinessName,
       Place,
       PhoneNumber,
     });
@@ -34,7 +33,6 @@ export const registerUser = async (req, res) => {
         <h3>New User Registered</h3>
         <p><strong>Name:</strong> ${Name || "N/A"}</p>
         <p><strong>Email:</strong> ${Email || "N/A"}</p>
-        <p><strong>Business Name:</strong> ${BusinessName}</p>
         <p><strong>District:</strong> ${Place}</p>
         <p><strong>Phone Number:</strong> ${PhoneNumber}</p>
       `,

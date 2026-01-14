@@ -16,7 +16,6 @@ const UserForm = () => {
   const [formData, setFormData] = useState({
     Name: "",
     Email: "",
-    BusinessName: "",
     Place: "",
     PhoneNumber: "",
   });
@@ -39,7 +38,6 @@ const UserForm = () => {
       setFormData({
         Name: "",
         Email: "",
-        BusinessName: "",
         Place: "",
         PhoneNumber: "",
       });
@@ -81,20 +79,6 @@ const UserForm = () => {
                   placeholder="E-mail(Optional)"
                   value={formData.Email}
                   onChange={handleChange}
-                />
-              </div>
-
-              <div className="input-group">
-                <div className="icon-circle">
-                  <FaBuilding />
-                </div>
-                <input
-                  type="text"
-                  name="BusinessName"
-                  placeholder="Business Name"
-                  value={formData.BusinessName}
-                  onChange={handleChange}
-                  required
                 />
               </div>
 
