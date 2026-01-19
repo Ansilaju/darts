@@ -5,7 +5,7 @@ const Portfolio = () => {
   const [filter, setFilter] = useState("all");
 
   const portfolioItems = [
-    { category: "courses", img: "/poster12.webp" },
+    { category: "courses", img: "/dartsimage.webp" },
 
     { category: "poster", img: "/poster1.webp" },
 
@@ -18,7 +18,7 @@ const Portfolio = () => {
     { category: "website", img: "/vivo.webp" },
     { category: "website", img: "/amk.webp" },
     { category: "website", img: "/ibm.webp" },
-    { category: "courses", img: "/poster2.webp" },
+    { category: "courses", img: "/DARTIMG2.webp" },
     { category: "courses", img: "/poster3.webp" },
     { category: "courses", img: "/poster4.webp" },
     { category: "courses", img: "/poster9.webp" },
@@ -30,7 +30,7 @@ const Portfolio = () => {
     },
     {
       category: "courses",
-      img: "/WhatsApp Image 2025-09-03 at 09.33.16_002a78b6.webp",
+      img: "/DARTIMGQ.webp",
     },
   ];
 

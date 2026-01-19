@@ -217,7 +217,7 @@ const Home = () => {
                 alt: "Website UI/UX mockup",
               },
               {
-                src: "/poster16.jpg",
+                src: "/dartsimg3.webp",
                 alt: "Upcoming project preview",
               },
             ].map((item, index) => (

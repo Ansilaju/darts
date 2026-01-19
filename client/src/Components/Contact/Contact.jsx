@@ -14,7 +14,7 @@ const Contact = () => {
 
   const [statusMessage, setStatusMessage] = useState("");
 
-  // handle input changes
+    // handle input changes
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
