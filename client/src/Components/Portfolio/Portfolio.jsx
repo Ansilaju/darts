@@ -7,27 +7,16 @@ const Portfolio = () => {
   const portfolioItems = [
     { category: "courses", img: "/dartsimage.webp" },
 
-    { category: "poster", img: "/poster1.webp" },
-
     { category: "poster", img: "/poster7.webp" },
     { category: "poster", img: "/poster8.webp" },
 
     { category: "poster", img: "/poster10.webp" },
 
-    { category: "poster", img: "/poster13.webp" },
     { category: "website", img: "/vivo.webp" },
     { category: "website", img: "/amk.webp" },
     { category: "website", img: "/ibm.webp" },
     { category: "courses", img: "/DARTIMG2.webp" },
-    { category: "courses", img: "/poster3.webp" },
-    { category: "courses", img: "/poster4.webp" },
-    { category: "courses", img: "/poster9.webp" },
-    { category: "courses", img: "/poster5.webp" },
-    { category: "courses", img: "/poster11.webp" },
-    {
-      category: "courses",
-      img: "/WhatsApp Image 2025-09-03 at 09.31.56_11b38df3.webp",
-    },
+
     {
       category: "courses",
       img: "/DARTIMGQ.webp",
