@@ -205,19 +205,19 @@ const Home = () => {
           <div className="portfolios-grid">
             {[
               {
-                src: "/portfoliomain.webp",
+                src: "/dartsimage.webp",
                 alt: "Business networking event design",
               },
               {
-                src: "/poster12.webp",
+                src: "/vfxdarts.webp",
                 alt: "Corporate branding project",
               },
               {
-                src: "/poster15.webp",
+                src: "/DARTIMG2.webp",
                 alt: "Website UI/UX mockup",
               },
               {
-                src: "/dartsimg3.webp",
+                src: "/DARTIMGQ.webp",
                 alt: "Upcoming project preview",
               },
             ].map((item, index) => (

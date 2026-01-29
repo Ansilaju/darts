@@ -14,7 +14,7 @@ const Contact = () => {
 
   const [statusMessage, setStatusMessage] = useState("");
 
-    // handle input changes
+  // handle input changes
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
@@ -116,7 +116,7 @@ const Contact = () => {
               {" "}
             </iframe>
             <a
-              href="https://www.google.com/maps?q=INTERNATIONAL+BUSINESS+NETWORK+SOLUTIONS"
+              href="https://maps.app.goo.gl/kdmYu7dPyL5JujYcA"
               target="_blank"
               rel="noopener noreferrer"
               className="map-link-overlay"
