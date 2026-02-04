@@ -6,7 +6,7 @@ const Portfolio = () => {
 
   const portfolioItems = [
     { category: "courses", img: "/dartsimage.webp" },
- { category: "courses", img: "/vfxdarts.webp" },
+    { category: "courses", img: "/vfxdarts.webp" },
     { category: "poster", img: "/poster7.webp" },
     { category: "poster", img: "/poster8.webp" },
 
@@ -38,7 +38,7 @@ const Portfolio = () => {
         </div>
         <div className="portp text-center">
           <p>
-            At IBNS, we deliver creative and result-driven digital solutions to
+            At DARTS, we deliver creative and result-driven digital solutions to
             help businesses build a strong online and offline presence. Our
             portfolio showcases the diversity of our work – from eye-catching
             visuals to high-performing digital platforms.
