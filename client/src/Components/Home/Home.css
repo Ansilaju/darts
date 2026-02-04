@@ -19,15 +19,31 @@
   z-index: 1;
 }
 
-.servicepage-section{
+.servicepage-section {
   display: flex;
- gap: 70px;
+  gap: 70px;
 }
-.servimg img{
-  width:30vw;
-  height: 110vh;
+@media (max-width: 768px) {
+  .servicepage-section {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 
+.servimg img {
+  width: 30vw;
+  height: 110vh;
+}
+@media (max-width: 768px) {
+  .servimg img {
+    height: 60vh;
+  }
+}
+@media (max-width: 768px) {
+  .servimg img {
+    height: 40vh;
+  }
+}
 .hero-bg img {
   height: 100%;
   width: 100%;
@@ -89,7 +105,9 @@
   border-radius: 30px;
   font-weight: bold;
   text-decoration: none;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 .letss {
@@ -212,8 +230,10 @@ body {
   gap: 14px;
   align-items: flex-start;
   border: 1px solid white;
-  transition: transform 0.22s cubic-bezier(0.2, 0.9, 0.3, 1),
-    box-shadow 0.22s ease, border-color 0.22s ease;
+  transition:
+    transform 0.22s cubic-bezier(0.2, 0.9, 0.3, 1),
+    box-shadow 0.22s ease,
+    border-color 0.22s ease;
   cursor: pointer;
   backdrop-filter: blur(6px);
   will-change: transform;
@@ -482,7 +502,8 @@ body {
   content: "";
   position: fixed;
   inset: -20vh -20vw;
-  background: radial-gradient(
+  background:
+    radial-gradient(
       1200px 420px at 50% 140px,
       rgba(10, 46, 161, 0.168),
       transparent 60%
@@ -500,7 +521,8 @@ body {
   border-radius: 16px;
   background: var(--card);
   border: 1px solid var(--border);
-  box-shadow: 0 40px 120px -30px rgba(0, 0, 0, 0.6),
+  box-shadow:
+    0 40px 120px -30px rgba(0, 0, 0, 0.6),
     inset 0 1px 0 rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(16px) saturate(120%);
   -webkit-backdrop-filter: blur(16px) saturate(120%);
@@ -911,7 +933,9 @@ body {
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 /* Gradient difference */
@@ -948,7 +972,9 @@ body {
   font-size: 1rem;
   text-decoration: none;
   border-radius: 50px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
 }
 
 /* Hover animation */
