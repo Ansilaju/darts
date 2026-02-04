@@ -77,6 +77,7 @@ const UserForm = () => {
                   placeholder="E-mail"
                   value={formData.Email}
                   onChange={handleChange}
+                  required
                 />
               </div>
 
