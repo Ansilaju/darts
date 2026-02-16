@@ -205,7 +205,7 @@ const Home = () => {
           <div className="portfolios-grid">
             {[
               {
-                src: "/dartsimage.webp",
+                src: "/mern new.webp",
                 alt: "Business networking event design",
               },
               {

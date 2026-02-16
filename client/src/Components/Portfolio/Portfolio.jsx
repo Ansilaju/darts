@@ -5,7 +5,7 @@ const Portfolio = () => {
   const [filter, setFilter] = useState("all");
 
   const portfolioItems = [
-    { category: "courses", img: "/dartsimage.webp" },
+    { category: "courses", img: "/mern new.webp" },
     { category: "courses", img: "/vfxdarts.webp" },
     { category: "poster", img: "/poster7.webp" },
     { category: "poster", img: "/poster8.webp" },
