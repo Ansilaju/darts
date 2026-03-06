@@ -31,7 +31,6 @@ const Ms = () => {
               <div className="course-card hover-lift">
                 <div className="card-header">
                   <h3>Front-End Developer</h3>
-                  <div className="price">₹15,000</div>
                 </div>
                 <div className="card-body">
                   <p className="duration">3 Months</p>
@@ -55,7 +54,7 @@ const Ms = () => {
               <div className="course-card hover-lift">
                 <div className="card-header">
                   <h3>Back-End Developer</h3>
-                  <div className="price">₹15,000</div>
+                  
                 </div>
                 <div className="card-body">
                   <p className="duration">3 Months</p>
@@ -78,7 +77,7 @@ const Ms = () => {
                 <div className="featured-badge">Most Popular</div>
                 <div className="card-header">
                   <h3>Full Stack Developer</h3>
-                  <div className="price">₹30,000</div>
+                 
                 </div>
                 <div className="card-body">
                   <p className="duration">6 Months</p>

@@ -29,8 +29,8 @@ const Dm = () => {
             <div className="courses-grid">
               <div className="course-card hover-lift">
                 <div className="card-header">
-                  <h3>LaunchPad 999 [Online]</h3>
-                  <div className="price">₹999/month</div>
+                  <h3>LaunchPad  [Online]</h3>
+                  
                   <br />
                 </div>
                 <div className="card-body">
@@ -54,7 +54,7 @@ const Dm = () => {
               <div className="course-card hover-lift">
                 <div className="card-header">
                   <h3>Learner to Leader(Advanced) [Offline]</h3>
-                  <div className="price">₹39,999</div>
+                 
                   <br />
                 </div>
                 <div className="card-body">
@@ -83,7 +83,7 @@ const Dm = () => {
               <div className="course-card hover-lift">
                 <div className="card-header">
                   <h3>Learner to Leader(Advanced) [Online]</h3>
-                  <div className="price">₹44,999</div>
+                 
                   <br />
                 </div>
                 <div className="card-body">

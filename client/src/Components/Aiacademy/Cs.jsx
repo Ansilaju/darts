@@ -31,7 +31,7 @@ const Cs = () => {
               <div className="course-card hover-lift">
                 <div className="card-header">
                   <h3>Basic Plan</h3>
-                  <div className="price">₹22,000</div>
+                  
                 </div>
                 <div className="card-body">
                   <p className="duration">3 Months</p>
@@ -54,12 +54,12 @@ const Cs = () => {
               <div className="course-card hover-lift">
                 <div className="card-header">
                   <h3>ICSP</h3>
-                  <div className="price">₹65,000</div>
+                  
                 </div>
                 <div className="card-body">
                   <p className="duration">6 Months</p>
                   <p className="description">
-                    ibn Certified Security Professionals
+                    Darts Certified Security Professionals
                   </p>
                   <ul className="features">
                     <li>Driven professional Certification</li>
@@ -80,7 +80,7 @@ const Cs = () => {
                 <div className="featured-badge">Most Popular</div>
                 <div className="card-header">
                   <h3>Freelancer "Zero to Hero"</h3>
-                  <div className="price">₹1 LAKH</div>
+                 
                 </div>
                 <div className="card-body">
                   <p className="duration">6 Months</p>

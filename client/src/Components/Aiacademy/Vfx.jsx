@@ -30,7 +30,7 @@ const Vfx = () => {
               <div className="course-card hover-lift">
                 <div className="card-header">
                   <h3>Beginner Foundation</h3>
-                  <div className="price">₹15,000</div>
+                  
                   <br />
                 </div>
                 <div className="card-body">
@@ -56,7 +56,7 @@ const Vfx = () => {
               <div className="course-card hover-lift">
                 <div className="card-header">
                   <h3>Intermediate Foundation</h3>
-                  <div className="price">₹45,000</div>
+                 
                   <br />
                 </div>
                 <div className="card-body">
@@ -85,7 +85,7 @@ const Vfx = () => {
                 <div className="featured-badge">Most Popular</div>
                 <div className="card-header">
                   <h3> VFX Expert</h3>
-                  <div className="price">₹65,000</div>
+                 
                   <br />
                 </div>
                 <div className="card-body">
